@@ -1,0 +1,61 @@
+
+__________________________
+ Host: kgtyk4.kj.yamagata-u.ac.jp
+ TimeStamp: Tue Aug 01 01:00:21 BRT 1995
+ Request: GET /images/NASA-logosmall.gif HTTP/1.0
+ ReplyCode: 304
+ Bytes: 0
+__________________________
+ Host: kgtyk4.kj.yamagata-u.ac.jp
+ TimeStamp: Tue Aug 01 01:00:21 BRT 1995
+ Request: GET /images/MOSAIC-logosmall.gif HTTP/1.0
+ ReplyCode: 304
+ Bytes: 0
+__________________________
+ Host: kgtyk4.kj.yamagata-u.ac.jp
+ TimeStamp: Tue Aug 01 01:00:22 BRT 1995
+ Request: GET /images/USA-logosmall.gif HTTP/1.0
+ ReplyCode: 304
+ Bytes: 0
+__________________________
+ Host: kgtyk4.kj.yamagata-u.ac.jp
+ TimeStamp: Tue Aug 01 01:00:22 BRT 1995
+ Request: GET /images/WORLD-logosmall.gif HTTP/1.0
+ ReplyCode: 304
+ Bytes: 0
+__________________________
+ Host: [133][43][96][45]
+ TimeStamp: Tue Aug 01 01:00:22 BRT 1995
+ Request: GET /images/KSC-logosmall.gif HTTP/1.0
+ ReplyCode: 200
+ Bytes: 1204
+__________________________
+ Host: kgtyk4.kj.yamagata-u.ac.jp
+ TimeStamp: Tue Aug 01 01:00:21 BRT 1995
+ Request: GET /images/NASA-logosmall.gif HTTP/1.0
+ ReplyCode: 304
+ Bytes: 0
+__________________________
+ Host: kgtyk4.kj.yamagata-u.ac.jp
+ TimeStamp: Tue Aug 01 01:00:21 BRT 1995
+ Request: GET /images/MOSAIC-logosmall.gif HTTP/1.0
+ ReplyCode: 304
+ Bytes: 0
+__________________________
+ Host: kgtyk4.kj.yamagata-u.ac.jp
+ TimeStamp: Tue Aug 01 01:00:22 BRT 1995
+ Request: GET /images/USA-logosmall.gif HTTP/1.0
+ ReplyCode: 304
+ Bytes: 0
+__________________________
+ Host: kgtyk4.kj.yamagata-u.ac.jp
+ TimeStamp: Tue Aug 01 01:00:22 BRT 1995
+ Request: GET /images/WORLD-logosmall.gif HTTP/1.0
+ ReplyCode: 304
+ Bytes: 0
+__________________________
+ Host: [133][43][96][45]
+ TimeStamp: Tue Aug 01 01:00:22 BRT 1995
+ Request: GET /images/KSC-logosmall.gif HTTP/1.0
+ ReplyCode: 200
+ Bytes: 1204
