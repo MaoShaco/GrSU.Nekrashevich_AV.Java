@@ -645,7 +645,7 @@
       <workItem from="1425723681136" duration="560000" />
       <workItem from="1425724430532" duration="7813000" />
       <workItem from="1425732451295" duration="364000" />
-      <workItem from="1425796218546" duration="1918000" />
+      <workItem from="1425796218546" duration="2072000" />
     </task>
     <task id="LOCAL-00001" summary="Classes for parsing accessLogs and writing required string onto another file.">
       <created>1425798015512</created>
@@ -657,7 +657,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30777000" />
+    <option name="totallyTimeSpent" value="30931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
