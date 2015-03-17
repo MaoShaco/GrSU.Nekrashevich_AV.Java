@@ -3,9 +3,10 @@ package com.halloween.mao;
 /**
  * Created by Mao on 3/7/2015.
  */
-public class ParserForLog {
+public class ParserForLog implements IParserForLog {
 
-    public static AccessLog  getAccessLog(String str){
+    @Override
+    public AccessLog  getAccessLog(String str){
         AccessLog Buffer = new AccessLog();
 
         String[] buffer = str.split("\"");

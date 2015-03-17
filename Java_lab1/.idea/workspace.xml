@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16bdb9e5-9dbd-4865-8f37-391d6bb2acf5" name="Default" comment="" />
+    <list default="true" id="16bdb9e5-9dbd-4865-8f37-391d6bb2acf5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/halloween/mao/ILogFileProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/halloween/mao/IParserForLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/halloween/mao/IReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/halloween/mao/IWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_lab1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/halloween/mao/LogFileProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Main.class" afterPath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/ParserForLog.class" afterPath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/ParserForLog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Reader.class" afterPath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Reader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Writer.class" afterPath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Writer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/Main.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/NewBase.txt" afterPath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/NewBase.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/NewBase.txt" afterPath="$PROJECT_DIR$/src/com/halloween/mao/NewBase.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/ParserForLog.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/ParserForLog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/Reader.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/Reader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/Writer.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/Writer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Java_lab1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,34 +48,38 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="731">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccessLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/AccessLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="867">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#setTimestamp#0;class#AccessLog#0" expanded="false" />
-                <element signature="e#1173#1174#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParserForLog.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParserForLog.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/ParserForLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21356784" vertical-offset="0" max-vertical-offset="476">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IParserForLog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/IParserForLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/IReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -65,8 +88,8 @@
       <file leaf-file-name="Writer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Writer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="697">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="714">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +97,44 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="LogFileProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/LogFileProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="680">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#413#424#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ILogFileProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/ILogFileProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IWriter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/IWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Reader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Reader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="629">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#GetStrings#0;class#Reader#0" expanded="false" />
@@ -87,165 +143,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewBase.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NewBase.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/NewBase.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="633" max-vertical-offset="1122">
-              <caret line="51" column="33" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Host.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Host.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="697">
-              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#223#232#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="47181" max-vertical-offset="52054">
-              <caret line="2861" column="0" selection-start-line="2861" selection-start-column="0" selection-end-line="2861" selection-end-column="0" />
-              <folding>
-                <element signature="e#22450#22451#0" expanded="true" />
-                <element signature="e#22485#22486#0" expanded="true" />
-                <element signature="e#82257#82258#0" expanded="true" />
-                <element signature="e#82308#82309#0" expanded="true" />
-                <element signature="e#117534#117535#0" expanded="true" />
-                <element signature="e#117596#117597#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pattern.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/regex/Pattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="18395" max-vertical-offset="97189">
-              <caret line="1132" column="0" selection-start-line="1132" selection-start-column="0" selection-end-line="1132" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#220073#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#49482#49483#0" expanded="false" />
-                <element signature="e#49530#49531#0" expanded="false" />
-                <element signature="e#49703#49704#0" expanded="false" />
-                <element signature="e#49733#49734#0" expanded="false" />
-                <element signature="e#50012#50013#0" expanded="false" />
-                <element signature="e#50042#50043#0" expanded="false" />
-                <element signature="e#50700#50701#0" expanded="false" />
-                <element signature="e#50728#50729#0" expanded="false" />
-                <element signature="e#57959#57960#0" expanded="false" />
-                <element signature="e#57997#57998#0" expanded="false" />
-                <element signature="e#68318#68319#0" expanded="false" />
-                <element signature="e#68381#68382#0" expanded="false" />
-                <element signature="e#75891#75892#0" expanded="false" />
-                <element signature="e#75922#75923#0" expanded="false" />
-                <element signature="e#76875#76876#0" expanded="false" />
-                <element signature="e#76914#76915#0" expanded="false" />
-                <element signature="e#79893#79894#0" expanded="false" />
-                <element signature="e#79917#79918#0" expanded="false" />
-                <element signature="e#122682#122683#0" expanded="false" />
-                <element signature="e#122711#122712#0" expanded="false" />
-                <element signature="e#122750#122751#0" expanded="false" />
-                <element signature="e#122778#122779#0" expanded="false" />
-                <element signature="e#126231#126232#0" expanded="false" />
-                <element signature="e#126282#126283#0" expanded="false" />
-                <element signature="e#128644#128645#0" expanded="false" />
-                <element signature="e#128689#128690#0" expanded="false" />
-                <element signature="e#131342#131343#0" expanded="false" />
-                <element signature="e#131377#131378#0" expanded="false" />
-                <element signature="e#136722#136723#0" expanded="false" />
-                <element signature="e#136761#136762#0" expanded="false" />
-                <element signature="e#139122#139123#0" expanded="false" />
-                <element signature="e#139161#139162#0" expanded="false" />
-                <element signature="e#143211#143212#0" expanded="false" />
-                <element signature="e#143249#143250#0" expanded="false" />
-                <element signature="e#143480#143481#0" expanded="false" />
-                <element signature="e#143518#143519#0" expanded="false" />
-                <element signature="e#143856#143857#0" expanded="false" />
-                <element signature="e#143913#143914#0" expanded="false" />
-                <element signature="e#144110#144111#0" expanded="false" />
-                <element signature="e#144152#144153#0" expanded="false" />
-                <element signature="e#144524#144525#0" expanded="false" />
-                <element signature="e#144566#144567#0" expanded="false" />
-                <element signature="e#144606#144607#0" expanded="false" />
-                <element signature="e#144675#144676#0" expanded="false" />
-                <element signature="e#144894#144895#0" expanded="false" />
-                <element signature="e#144938#144939#0" expanded="false" />
-                <element signature="e#144978#144979#0" expanded="false" />
-                <element signature="e#145049#145050#0" expanded="false" />
-                <element signature="e#145307#145308#0" expanded="false" />
-                <element signature="e#145384#145385#0" expanded="false" />
-                <element signature="e#145637#145638#0" expanded="false" />
-                <element signature="e#145680#145681#0" expanded="false" />
-                <element signature="e#145917#145918#0" expanded="false" />
-                <element signature="e#145983#145984#0" expanded="false" />
-                <element signature="e#146856#146857#0" expanded="false" />
-                <element signature="e#146892#146893#0" expanded="false" />
-                <element signature="e#147254#147255#0" expanded="false" />
-                <element signature="e#147288#147289#0" expanded="false" />
-                <element signature="e#147939#147940#0" expanded="false" />
-                <element signature="e#147973#147974#0" expanded="false" />
-                <element signature="e#148742#148743#0" expanded="false" />
-                <element signature="e#148776#148777#0" expanded="false" />
-                <element signature="e#149565#149566#0" expanded="false" />
-                <element signature="e#149599#149600#0" expanded="false" />
-                <element signature="e#150489#150490#0" expanded="false" />
-                <element signature="e#150523#150524#0" expanded="false" />
-                <element signature="e#150552#150553#0" expanded="false" />
-                <element signature="e#150599#150600#0" expanded="false" />
-                <element signature="e#151509#151510#0" expanded="false" />
-                <element signature="e#151543#151544#0" expanded="false" />
-                <element signature="e#151572#151573#0" expanded="false" />
-                <element signature="e#151650#151651#0" expanded="false" />
-                <element signature="e#151724#151725#0" expanded="false" />
-                <element signature="e#151773#151774#0" expanded="false" />
-                <element signature="e#153329#153330#0" expanded="false" />
-                <element signature="e#153364#153365#0" expanded="false" />
-                <element signature="e#153908#153909#0" expanded="false" />
-                <element signature="e#153949#153950#0" expanded="false" />
-                <element signature="e#167918#167919#0" expanded="false" />
-                <element signature="e#167976#167977#0" expanded="false" />
-                <element signature="e#168015#168016#0" expanded="false" />
-                <element signature="e#168064#168065#0" expanded="false" />
-                <element signature="e#170643#170644#0" expanded="false" />
-                <element signature="e#170690#170691#0" expanded="false" />
-                <element signature="e#171592#171593#0" expanded="false" />
-                <element signature="e#171632#171633#0" expanded="false" />
-                <element signature="e#173773#173774#0" expanded="false" />
-                <element signature="e#173813#173814#0" expanded="false" />
-                <element signature="e#173879#173880#0" expanded="false" />
-                <element signature="e#173941#173942#0" expanded="false" />
-                <element signature="e#173980#173981#0" expanded="false" />
-                <element signature="e#174027#174028#0" expanded="false" />
-                <element signature="e#177368#177369#0" expanded="false" />
-                <element signature="e#177421#177422#0" expanded="false" />
-                <element signature="e#183068#183069#0" expanded="false" />
-                <element signature="e#183122#183123#0" expanded="false" />
-                <element signature="e#185260#185261#0" expanded="false" />
-                <element signature="e#185300#185301#0" expanded="false" />
-                <element signature="e#186043#186044#0" expanded="false" />
-                <element signature="e#186083#186084#0" expanded="false" />
-                <element signature="e#187233#187234#0" expanded="false" />
-                <element signature="e#187289#187290#0" expanded="false" />
-                <element signature="e#188699#188700#0" expanded="false" />
-                <element signature="e#188746#188747#0" expanded="false" />
-                <element signature="e#191265#191266#0" expanded="false" />
-                <element signature="e#191312#191313#0" expanded="false" />
-                <element signature="e#215964#215965#0" expanded="false" />
-                <element signature="e#216009#216010#0" expanded="false" />
-                <element signature="e#218047#218048#0" expanded="false" />
-                <element signature="e#218108#218109#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -264,14 +167,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/halloween/mao/Reader.java" />
         <option value="$PROJECT_DIR$/src/com/halloween/mao/Request.java" />
-        <option value="$PROJECT_DIR$/src/com/halloween/mao/Writer.java" />
         <option value="$PROJECT_DIR$/src/com/halloween/mao/AccessLog.java" />
-        <option value="$PROJECT_DIR$/src/com/halloween/mao/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/halloween/mao/ParserForLog.java" />
-        <option value="$PROJECT_DIR$/src/com/halloween/mao/NewBase.txt" />
         <option value="$PROJECT_DIR$/src/com/halloween/mao/Host.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/ParserForLog.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/Reader.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/Writer.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/ILogFileProcessor.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/LogFileProcessor.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/NewBase.txt" />
       </list>
     </option>
   </component>
@@ -279,8 +184,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-5" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -309,7 +213,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -348,6 +251,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -365,10 +269,15 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.halloween.mao" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -645,7 +554,10 @@
       <workItem from="1425723681136" duration="560000" />
       <workItem from="1425724430532" duration="7813000" />
       <workItem from="1425732451295" duration="364000" />
-      <workItem from="1425796218546" duration="2072000" />
+      <workItem from="1425796218546" duration="2290000" />
+      <workItem from="1426311713659" duration="157000" />
+      <workItem from="1426312023317" duration="5902000" />
+      <workItem from="1426592224130" duration="821000" />
     </task>
     <task id="LOCAL-00001" summary="Classes for parsing accessLogs and writing required string onto another file.">
       <created>1425798015512</created>
@@ -657,10 +569,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30931000" />
+    <option name="totallyTimeSpent" value="38029000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-5" y="0" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -670,16 +582,17 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15905511" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15905511" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26207906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -689,7 +602,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -755,6 +667,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18479" max-vertical-offset="97036">
+          <caret line="1132" column="0" selection-start-line="1132" selection-start-column="0" selection-end-line="1132" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/AccessLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="935">
@@ -762,6 +681,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setTimestamp#0;class#AccessLog#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="true" />
             <element signature="e#1173#1174#0" expanded="true" />
           </folding>
         </state>
@@ -796,7 +716,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#223#232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -804,13 +723,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Aug95.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_lab1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Reader.java">
@@ -828,9 +740,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -841,6 +751,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setTimestamp#0;class#AccessLog#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="true" />
             <element signature="e#1173#1174#0" expanded="true" />
           </folding>
         </state>
@@ -864,13 +775,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Aug95.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_lab1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Reader.java">
@@ -888,9 +792,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="850">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -901,6 +803,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setTimestamp#0;class#AccessLog#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="true" />
             <element signature="e#1173#1174#0" expanded="true" />
           </folding>
         </state>
@@ -926,13 +829,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_lab1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1020">
@@ -948,9 +844,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="408">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -969,9 +863,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -990,9 +882,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,9 +901,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,16 +920,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_lab1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,16 +928,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_lab1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,10 +953,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_lab1.iml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="9095">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="82961" max-vertical-offset="120683">
+          <caret line="4941" column="0" selection-start-line="4941" selection-start-column="0" selection-end-line="4941" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18395" max-vertical-offset="97189">
+          <caret line="1132" column="0" selection-start-line="1132" selection-start-column="0" selection-end-line="1132" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="47181" max-vertical-offset="52054">
+          <caret line="2861" column="0" selection-start-line="2861" selection-start-column="0" selection-end-line="2861" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1641" max-vertical-offset="6970">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1095,277 +993,33 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/AccessLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="9095">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="82961" max-vertical-offset="120683">
-          <caret line="4941" column="0" selection-start-line="4941" selection-start-column="0" selection-end-line="4941" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="867">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
           <folding>
-            <element signature="e#0#265597#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#18663#18664#0" expanded="false" />
-            <element signature="e#18707#18708#0" expanded="false" />
-            <element signature="e#19046#19047#0" expanded="false" />
-            <element signature="e#19093#19094#0" expanded="false" />
-            <element signature="e#19203#19204#0" expanded="false" />
-            <element signature="e#19238#19239#0" expanded="false" />
-            <element signature="e#109711#109712#0" expanded="false" />
-            <element signature="e#109752#109753#0" expanded="false" />
-            <element signature="e#151504#151505#0" expanded="false" />
-            <element signature="e#151538#151539#0" expanded="false" />
-            <element signature="e#152937#152938#0" expanded="false" />
-            <element signature="e#152965#152966#0" expanded="false" />
-            <element signature="e#153206#153207#0" expanded="false" />
-            <element signature="e#153254#153255#0" expanded="false" />
-            <element signature="e#153583#153584#0" expanded="false" />
-            <element signature="e#153616#153617#0" expanded="false" />
-            <element signature="e#155032#155033#0" expanded="false" />
-            <element signature="e#155072#155073#0" expanded="false" />
-            <element signature="e#159163#159164#0" expanded="false" />
-            <element signature="e#159241#159242#0" expanded="false" />
-            <element signature="e#160116#160117#0" expanded="false" />
-            <element signature="e#160186#160187#0" expanded="false" />
-            <element signature="e#160925#160926#0" expanded="false" />
-            <element signature="e#160992#160993#0" expanded="false" />
-            <element signature="e#161801#161802#0" expanded="false" />
-            <element signature="e#161873#161874#0" expanded="false" />
-            <element signature="e#165291#165292#0" expanded="false" />
-            <element signature="e#165349#165350#0" expanded="false" />
-            <element signature="e#169682#169683#0" expanded="false" />
-            <element signature="e#169737#169738#0" expanded="false" />
-            <element signature="e#174205#174206#0" expanded="false" />
-            <element signature="e#174276#174277#0" expanded="false" />
-            <element signature="e#187629#187630#0" expanded="false" />
-            <element signature="e#187672#187673#0" expanded="false" />
-            <element signature="e#190944#190945#0" expanded="false" />
-            <element signature="e#190987#190988#0" expanded="false" />
-            <element signature="e#194321#194322#0" expanded="false" />
-            <element signature="e#194364#194365#0" expanded="false" />
-            <element signature="e#195916#195917#0" expanded="false" />
-            <element signature="e#195987#195988#0" expanded="false" />
-            <element signature="e#197464#197465#0" expanded="false" />
-            <element signature="e#197503#197504#0" expanded="false" />
-            <element signature="e#198787#198788#0" expanded="false" />
-            <element signature="e#198862#198863#0" expanded="false" />
-            <element signature="e#199915#199916#0" expanded="false" />
-            <element signature="e#199956#199957#0" expanded="false" />
-            <element signature="e#200811#200812#0" expanded="false" />
-            <element signature="e#200876#200877#0" expanded="false" />
-            <element signature="e#202331#202332#0" expanded="false" />
-            <element signature="e#202371#202372#0" expanded="false" />
-            <element signature="e#204938#204939#0" expanded="false" />
-            <element signature="e#204985#204986#0" expanded="false" />
-            <element signature="e#207299#207300#0" expanded="false" />
-            <element signature="e#207347#207348#0" expanded="false" />
-            <element signature="e#208729#208730#0" expanded="false" />
-            <element signature="e#208776#208777#0" expanded="false" />
-            <element signature="e#210610#210611#0" expanded="false" />
-            <element signature="e#210685#210686#0" expanded="false" />
-            <element signature="e#211987#211988#0" expanded="false" />
-            <element signature="e#212040#212041#0" expanded="false" />
-            <element signature="e#214775#214776#0" expanded="false" />
-            <element signature="e#214827#214828#0" expanded="false" />
-            <element signature="e#217335#217336#0" expanded="false" />
-            <element signature="e#217391#217392#0" expanded="false" />
-            <element signature="e#219788#219789#0" expanded="false" />
-            <element signature="e#219843#219844#0" expanded="false" />
-            <element signature="e#222462#222463#0" expanded="false" />
-            <element signature="e#222515#222516#0" expanded="false" />
-            <element signature="e#225086#225087#0" expanded="false" />
-            <element signature="e#225135#225136#0" expanded="false" />
-            <element signature="e#226343#226344#0" expanded="false" />
-            <element signature="e#226416#226417#0" expanded="false" />
-            <element signature="e#227755#227756#0" expanded="false" />
-            <element signature="e#227804#227805#0" expanded="false" />
-            <element signature="e#228990#228991#0" expanded="false" />
-            <element signature="e#229063#229064#0" expanded="false" />
-            <element signature="e#230330#230331#0" expanded="false" />
-            <element signature="e#230379#230380#0" expanded="false" />
-            <element signature="e#231446#231447#0" expanded="false" />
-            <element signature="e#231519#231520#0" expanded="false" />
-            <element signature="e#233921#233922#0" expanded="false" />
-            <element signature="e#233965#233966#0" expanded="false" />
-            <element signature="e#236253#236254#0" expanded="false" />
-            <element signature="e#236327#236328#0" expanded="false" />
-            <element signature="e#238047#238048#0" expanded="false" />
-            <element signature="e#238094#238095#0" expanded="false" />
-            <element signature="e#239612#239613#0" expanded="false" />
-            <element signature="e#239689#239690#0" expanded="false" />
-            <element signature="e#242079#242080#0" expanded="false" />
-            <element signature="e#242122#242123#0" expanded="false" />
-            <element signature="e#244761#244762#0" expanded="false" />
-            <element signature="e#244805#244806#0" expanded="false" />
-            <element signature="e#246241#246242#0" expanded="false" />
-            <element signature="e#246315#246316#0" expanded="false" />
-            <element signature="e#247229#247230#0" expanded="false" />
-            <element signature="e#247273#247274#0" expanded="false" />
-            <element signature="e#250041#250042#0" expanded="false" />
-            <element signature="e#250080#250081#0" expanded="false" />
-            <element signature="e#252159#252160#0" expanded="false" />
-            <element signature="e#252228#252229#0" expanded="false" />
-            <element signature="e#255562#255563#0" expanded="false" />
-            <element signature="e#255611#255612#0" expanded="false" />
-            <element signature="e#259088#259089#0" expanded="false" />
-            <element signature="e#259130#259131#0" expanded="false" />
-            <element signature="e#259945#259946#0" expanded="false" />
-            <element signature="e#260017#260018#0" expanded="false" />
-            <element signature="e#260800#260801#0" expanded="false" />
-            <element signature="e#260866#260867#0" expanded="false" />
-            <element signature="e#261453#261454#0" expanded="false" />
-            <element signature="e#261481#261482#0" expanded="false" />
-            <element signature="e#263827#263828#0" expanded="false" />
-            <element signature="e#263891#263892#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#setTimestamp#0;class#AccessLog#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/regex/Pattern.java">
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Host.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="18395" max-vertical-offset="97189">
-          <caret line="1132" column="0" selection-start-line="1132" selection-start-column="0" selection-end-line="1132" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="697">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#0#220073#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#49482#49483#0" expanded="false" />
-            <element signature="e#49530#49531#0" expanded="false" />
-            <element signature="e#49703#49704#0" expanded="false" />
-            <element signature="e#49733#49734#0" expanded="false" />
-            <element signature="e#50012#50013#0" expanded="false" />
-            <element signature="e#50042#50043#0" expanded="false" />
-            <element signature="e#50700#50701#0" expanded="false" />
-            <element signature="e#50728#50729#0" expanded="false" />
-            <element signature="e#57959#57960#0" expanded="false" />
-            <element signature="e#57997#57998#0" expanded="false" />
-            <element signature="e#68318#68319#0" expanded="false" />
-            <element signature="e#68381#68382#0" expanded="false" />
-            <element signature="e#75891#75892#0" expanded="false" />
-            <element signature="e#75922#75923#0" expanded="false" />
-            <element signature="e#76875#76876#0" expanded="false" />
-            <element signature="e#76914#76915#0" expanded="false" />
-            <element signature="e#79893#79894#0" expanded="false" />
-            <element signature="e#79917#79918#0" expanded="false" />
-            <element signature="e#122682#122683#0" expanded="false" />
-            <element signature="e#122711#122712#0" expanded="false" />
-            <element signature="e#122750#122751#0" expanded="false" />
-            <element signature="e#122778#122779#0" expanded="false" />
-            <element signature="e#126231#126232#0" expanded="false" />
-            <element signature="e#126282#126283#0" expanded="false" />
-            <element signature="e#128644#128645#0" expanded="false" />
-            <element signature="e#128689#128690#0" expanded="false" />
-            <element signature="e#131342#131343#0" expanded="false" />
-            <element signature="e#131377#131378#0" expanded="false" />
-            <element signature="e#136722#136723#0" expanded="false" />
-            <element signature="e#136761#136762#0" expanded="false" />
-            <element signature="e#139122#139123#0" expanded="false" />
-            <element signature="e#139161#139162#0" expanded="false" />
-            <element signature="e#143211#143212#0" expanded="false" />
-            <element signature="e#143249#143250#0" expanded="false" />
-            <element signature="e#143480#143481#0" expanded="false" />
-            <element signature="e#143518#143519#0" expanded="false" />
-            <element signature="e#143856#143857#0" expanded="false" />
-            <element signature="e#143913#143914#0" expanded="false" />
-            <element signature="e#144110#144111#0" expanded="false" />
-            <element signature="e#144152#144153#0" expanded="false" />
-            <element signature="e#144524#144525#0" expanded="false" />
-            <element signature="e#144566#144567#0" expanded="false" />
-            <element signature="e#144606#144607#0" expanded="false" />
-            <element signature="e#144675#144676#0" expanded="false" />
-            <element signature="e#144894#144895#0" expanded="false" />
-            <element signature="e#144938#144939#0" expanded="false" />
-            <element signature="e#144978#144979#0" expanded="false" />
-            <element signature="e#145049#145050#0" expanded="false" />
-            <element signature="e#145307#145308#0" expanded="false" />
-            <element signature="e#145384#145385#0" expanded="false" />
-            <element signature="e#145637#145638#0" expanded="false" />
-            <element signature="e#145680#145681#0" expanded="false" />
-            <element signature="e#145917#145918#0" expanded="false" />
-            <element signature="e#145983#145984#0" expanded="false" />
-            <element signature="e#146856#146857#0" expanded="false" />
-            <element signature="e#146892#146893#0" expanded="false" />
-            <element signature="e#147254#147255#0" expanded="false" />
-            <element signature="e#147288#147289#0" expanded="false" />
-            <element signature="e#147939#147940#0" expanded="false" />
-            <element signature="e#147973#147974#0" expanded="false" />
-            <element signature="e#148742#148743#0" expanded="false" />
-            <element signature="e#148776#148777#0" expanded="false" />
-            <element signature="e#149565#149566#0" expanded="false" />
-            <element signature="e#149599#149600#0" expanded="false" />
-            <element signature="e#150489#150490#0" expanded="false" />
-            <element signature="e#150523#150524#0" expanded="false" />
-            <element signature="e#150552#150553#0" expanded="false" />
-            <element signature="e#150599#150600#0" expanded="false" />
-            <element signature="e#151509#151510#0" expanded="false" />
-            <element signature="e#151543#151544#0" expanded="false" />
-            <element signature="e#151572#151573#0" expanded="false" />
-            <element signature="e#151650#151651#0" expanded="false" />
-            <element signature="e#151724#151725#0" expanded="false" />
-            <element signature="e#151773#151774#0" expanded="false" />
-            <element signature="e#153329#153330#0" expanded="false" />
-            <element signature="e#153364#153365#0" expanded="false" />
-            <element signature="e#153908#153909#0" expanded="false" />
-            <element signature="e#153949#153950#0" expanded="false" />
-            <element signature="e#167918#167919#0" expanded="false" />
-            <element signature="e#167976#167977#0" expanded="false" />
-            <element signature="e#168015#168016#0" expanded="false" />
-            <element signature="e#168064#168065#0" expanded="false" />
-            <element signature="e#170643#170644#0" expanded="false" />
-            <element signature="e#170690#170691#0" expanded="false" />
-            <element signature="e#171592#171593#0" expanded="false" />
-            <element signature="e#171632#171633#0" expanded="false" />
-            <element signature="e#173773#173774#0" expanded="false" />
-            <element signature="e#173813#173814#0" expanded="false" />
-            <element signature="e#173879#173880#0" expanded="false" />
-            <element signature="e#173941#173942#0" expanded="false" />
-            <element signature="e#173980#173981#0" expanded="false" />
-            <element signature="e#174027#174028#0" expanded="false" />
-            <element signature="e#177368#177369#0" expanded="false" />
-            <element signature="e#177421#177422#0" expanded="false" />
-            <element signature="e#183068#183069#0" expanded="false" />
-            <element signature="e#183122#183123#0" expanded="false" />
-            <element signature="e#185260#185261#0" expanded="false" />
-            <element signature="e#185300#185301#0" expanded="false" />
-            <element signature="e#186043#186044#0" expanded="false" />
-            <element signature="e#186083#186084#0" expanded="false" />
-            <element signature="e#187233#187234#0" expanded="false" />
-            <element signature="e#187289#187290#0" expanded="false" />
-            <element signature="e#188699#188700#0" expanded="false" />
-            <element signature="e#188746#188747#0" expanded="false" />
-            <element signature="e#191265#191266#0" expanded="false" />
-            <element signature="e#191312#191313#0" expanded="false" />
-            <element signature="e#215964#215965#0" expanded="false" />
-            <element signature="e#216009#216010#0" expanded="false" />
-            <element signature="e#218047#218048#0" expanded="false" />
-            <element signature="e#218108#218109#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="47181" max-vertical-offset="52054">
-          <caret line="2861" column="0" selection-start-line="2861" selection-start-column="0" selection-end-line="2861" selection-end-column="0" />
-          <folding>
-            <element signature="e#22450#22451#0" expanded="true" />
-            <element signature="e#22485#22486#0" expanded="true" />
-            <element signature="e#82257#82258#0" expanded="true" />
-            <element signature="e#82308#82309#0" expanded="true" />
-            <element signature="e#117534#117535#0" expanded="true" />
-            <element signature="e#117596#117597#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="697">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="714">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1374,8 +1028,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="629">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#GetStrings#0;class#Reader#0" expanded="false" />
@@ -1383,61 +1037,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/AccessLog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/ILogFileProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="901">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setTimestamp#0;class#AccessLog#0" expanded="false" />
-            <element signature="e#1173#1174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1641" max-vertical-offset="6970">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding>
-            <element signature="e#4211#4212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/NewBase.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="633" max-vertical-offset="1122">
-          <caret line="51" column="33" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Host.java">
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/IParserForLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="697">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/IWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/IReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/LogFileProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#223#232#0" expanded="true" />
+            <element signature="e#413#424#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="731">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/ParserForLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21356784" vertical-offset="0" max-vertical-offset="476">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/NewBase.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -8,8 +8,9 @@ import java.io.IOException;
 /**
  * Created by Mao on 3/7/2015.
  */
-public class Writer {
-    public static void write(String fileName, String text) {
+public class Writer implements IWriter {
+    @Override
+    public void write(String fileName, String text) {
 
         File file = new File(fileName);
 

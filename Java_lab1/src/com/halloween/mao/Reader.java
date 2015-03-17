@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 
-public class Reader {
+public class Reader implements IReader {
 
     private String path;
 
@@ -26,7 +26,8 @@ public class Reader {
     }
 
 
-    public String GetStrings(int readFrom, int rowsToRead ) {
+    @Override
+    public String GetStrings(int readFrom, int rowsToRead) {
 
         StringBuilder list = new StringBuilder();
 
