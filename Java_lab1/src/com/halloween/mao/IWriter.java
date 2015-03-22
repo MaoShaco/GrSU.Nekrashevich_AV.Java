@@ -1,8 +1,10 @@
 package com.halloween.mao;
 
+import java.util.List;
+
 /**
  * Created by Mao on 3/14/2015.
  */
 public interface IWriter {
-    void write(String fileName, String text);
+    <Type>  void write(String fileName, List<Type> text);
 }

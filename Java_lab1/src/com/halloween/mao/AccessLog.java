@@ -3,21 +3,20 @@ package com.halloween.mao;
 import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Locale;
 
 /**
  * Created by Mao on 3/2/2015.
  */
 public class AccessLog {
 
+    final String timestampPattern = "[dd/MMM/yyyy:HH:mm:ss Z]";
+
     public Date getTimestamp() {
-        return timestamp;
+        return this.timestamp;
     }
 
     public void setTimestamp(String timestamp) {
-        String timestampPattern = "[dd/MMM/yyyy:HH:mm:ss Z]";
-        this.timestamp = new SimpleDateFormat(timestampPattern, Locale.US)
-                .parse(timestamp, new ParsePosition(timestamp.indexOf("[")));
+        this.timestamp = new SimpleDateFormat(timestampPattern).parse(timestamp, new ParsePosition(timestamp.indexOf("[")));
     }
 
     public String getRequest() {
@@ -59,7 +58,8 @@ public class AccessLog {
     private int replyBytes;
 
     public String toString() {
-        return String.format("\n__________________________\n Host: " + getLocalHost() + "\n TimeStamp: " + getTimestamp() + "\n Request: " + getRequest() + "\n ReplyCode: " + getReplyCode() + "\n Bytes: " + getReplyBytes());
+        String dataBuff = new SimpleDateFormat(timestampPattern).format(getTimestamp());
+        return String.format("__________________________\n Host: " + getLocalHost() + "\n TimeStamp: " + dataBuff + "\n Request: " + getRequest() + "\n ReplyCode: " + getReplyCode() + "\n Bytes: " + getReplyBytes());
     }
 
 }

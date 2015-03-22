@@ -4,13 +4,14 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
 
 /**
  * Created by Mao on 3/7/2015.
  */
 public class Writer implements IWriter {
     @Override
-    public void write(String fileName, String text) {
+    public <Type> void  write(String fileName, List<Type> text) {
 
         File file = new File(fileName);
 
@@ -24,7 +25,10 @@ public class Writer implements IWriter {
             out = new BufferedWriter(fileWriter);
 
             try {
-                out.append(text);
+                for(Type str : text)
+                {
+                    out.append('\n' + str.toString());
+                }
             } finally {
                 out.close();
             }

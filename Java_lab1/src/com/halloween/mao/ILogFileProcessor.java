@@ -1,10 +1,13 @@
 package com.halloween.mao;
 
 import java.io.FileNotFoundException;
+import java.util.List;
 
 /**
- * Created by Mao on 3/17/2015.
+ * Created by Mao on 3/22/2015.
  */
 public interface ILogFileProcessor {
-    void process(String DataBasePath, String StarterPosition, String RowsAmount, String OutBasePath) throws FileNotFoundException;
+    List<AccessLog> getLogs();
+
+    void process(String DataBasePath, String StarterPosition, String RowsAmount, String OutBasePath, String ReportNumber) throws FileNotFoundException;
 }
