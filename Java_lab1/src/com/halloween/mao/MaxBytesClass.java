@@ -6,13 +6,10 @@ import java.util.StringJoiner;
  * Created by Mao on 3/28/2015.
  */
 public class MaxBytesClass {
-	int Bytes;
+	String MaxReq;
 
-	public MaxBytesClass(int bytes) {
-		Bytes = bytes;
+	public MaxBytesClass(AccessLog maxReq) {
+		MaxReq = maxReq.getRequest();
 	}
 
-	public String toString() {
-		return String.format("Max amount of bytes = " + this.Bytes);
-	}
 }

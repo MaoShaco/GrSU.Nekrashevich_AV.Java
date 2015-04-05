@@ -5,17 +5,19 @@ import java.util.*;
 /**
  * Created by Mao on 3/22/2015.
  */
-public class MostOften extends PreReportGenerater implements IReportGenerater {
+public class MostOften extends PreReportGenerater implements IReportGenerater<ReportParams, MostOftenClass> {
 	public MostOften(ILogSearcher logSearcher) {
 		super(logSearcher);
 	}
 
+
+
 	@Override
-	public List<Host> Report(int starterData, int finalData, List<AccessLog> Logs) {
-		this.Logs = Logs;
+	public MostOftenClass Report(ReportParams reportParams) {
+		this.Logs = reportParams.Logs;
 
 		Map<String, Integer> Dict = new HashMap<String, Integer>();
-		for (AccessLog str : findByDate(starterData, finalData)) {
+		for (AccessLog str : findByDate(reportParams.starterData, reportParams.finalData)) {
 			if (Dict.containsKey(str.getLocalHost().toString()))
 				Dict.put(str.getLocalHost().toString(), Dict.get(str.getLocalHost().toString()) + 1);
 			else
@@ -33,6 +35,7 @@ public class MostOften extends PreReportGenerater implements IReportGenerater {
 		if (list.size() < 5)
 			subListIndex = list.size();
 
-		return list.subList(0, subListIndex);
+		MostOftenClass ReportMostOften = new MostOftenClass(list.subList(0, subListIndex));
+		return ReportMostOften;
 	}
 }

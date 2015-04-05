@@ -45,20 +45,25 @@ public class LogFileProcessor implements ILogFileProcessor {
 		logWriter.write(outBasePath, Logs);
 
 		int reportNumber = Integer.parseInt(ReportNumber);
+		ReportParams RP = new ReportParams(1,5,Logs);
 		switch (reportNumber) {
 			case 1: {
-				IReportGenerater Reporter = new MostOften(logSearcher);
-				List<Host> mostOftenHost = Reporter.Report(1, 5, Logs);
+				IReportGenerater <ReportParams, MostOftenClass> Reporter = new MostOften(logSearcher);
+				MostOftenClass A = Reporter.Report(RP);
+				for(Object item : A.Hosts)
+					System.out.println(item.toString());
 				break;
 			}
 			case 2: {
-				IReportSumAnswers Reporter = new TotalSumAnswers(logSearcher);
-				TotalSumBytesClass totalSum = Reporter.Report(1, 5, Logs);
+				IReportGenerater <ReportParams, TotalSumBytesClass> Reporter = new TotalSumAnswers(logSearcher);
+				TotalSumBytesClass totalSum = Reporter.Report(RP);
+				System.out.println(totalSum.Sum);
 				break;
 			}
 			case 3: {
-				IReportMaxBytes Reporter = new MaxBytes(logSearcher);
-				MaxBytesClass maxBytes = Reporter.Report(1, 5, Logs);
+				IReportGenerater <ReportParams, MaxBytesClass> Reporter = new MaxBytes(logSearcher);
+				MaxBytesClass maxBytes = Reporter.Report(RP);
+				System.out.println(maxBytes.MaxReq);
 				break;
 			}
 		}

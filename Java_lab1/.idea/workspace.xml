@@ -2,52 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16bdb9e5-9dbd-4865-8f37-391d6bb2acf5" name="Default" comment="Classes for parsing accessLogs and writing required string onto another file.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/halloween/mao/MostOften.java" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\Java_lab1\out\production\Java_lab1\com\halloween\mao\IReporter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\Java_lab1\out\production\Java_lab1\com\halloween\mao\NewBase.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\Java_lab1\out\production\Java_lab1\com\halloween\mao\Reporter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\Java_lab1\out\production\Java_lab1\com\halloween\mao\Reporter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\Java_lab1\src\com\halloween\mao\Reporter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\.idea\description.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\out\production\MultThreding\DuoThreading.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\out\production\MultThreding\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\out\production\MultThreding\NewThread.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\out\production\MultThreding\OneThreading.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\src\DuoThreading.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\src\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\src\NewThread.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\MultThreding\src\OneThreading.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\Java_lab1\src\com\halloween\mao\IReporter.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/IReportGenerater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Host.class" afterPath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Host.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/LogFileProcessor.class" afterPath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/LogFileProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Main.class" afterPath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/ParserForLog.class" afterPath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/ParserForLog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Reader.class" afterPath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Reader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Writer.class" afterPath="$PROJECT_DIR$/out/production/Java_lab1/com/halloween/mao/Writer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/AccessLog.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/AccessLog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/Host.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/Host.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/ILogFileProcessor.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/ILogFileProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/ILogSearcher.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/ILogSearcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/IParserForLog.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/IParserForLog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/IReader.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/IReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/IWriter.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/IWriter.java" />
+      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\Java_lab1\src\com\halloween\mao\IReportMaxBytes.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mao\Documents\GitHub\GrSU.Nekrashevich_AV.Java\Java_lab1\src\com\halloween\mao\IReportSumAnswers.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/IReportGenerater.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/IReportGenerater.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/LogFileProcessor.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/LogFileProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/LogSearcher.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/LogSearcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/Main.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MostOftenReport.txt" afterPath="$PROJECT_DIR$/MostOftenReport.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/MaxBytes.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/MaxBytes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/MaxBytesClass.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/MaxBytesClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/MostOften.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/MostOften.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewBase.txt" afterPath="$PROJECT_DIR$/NewBase.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/ParserForLog.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/ParserForLog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/Reader.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/Reader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/Writer.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/Writer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/halloween/mao/TotalSumAnswers.java" afterPath="$PROJECT_DIR$/src/com/halloween/mao/TotalSumAnswers.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -86,41 +49,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IReportGenerater.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/IReportGenerater.java">
+      <file leaf-file-name="ReportParams.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/ReportParams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MostOften.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MostOften.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/MostOften.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9480769" vertical-offset="0" max-vertical-offset="629">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="680">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TotalSumAnswers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/TotalSumAnswers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogFileProcessor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LogFileProcessor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/LogFileProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="1190">
-              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.5390244" vertical-offset="714" max-vertical-offset="1275">
+              <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,14 +81,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Reader.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="442">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Host.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Host.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MostOftenClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/MostOftenClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
-                <element signature="method#GetStrings#0;class#Reader#0" expanded="false" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TotalSumAnswers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/TotalSumAnswers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+              <caret line="7" column="116" selection-start-line="7" selection-start-column="98" selection-end-line="7" selection-end-column="116" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,11 +127,11 @@
       <file leaf-file-name="MaxBytesClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/MaxBytesClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="37" />
               <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,28 +140,8 @@
       <file leaf-file-name="MaxBytes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/MaxBytes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="510">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IReportMaxBytes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/IReportMaxBytes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IReportSumAnswers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/IReportSumAnswers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="561">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -186,12 +150,10 @@
       <file leaf-file-name="PreReportGenerater.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/PreReportGenerater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="714">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="680">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -230,16 +192,19 @@
         <option value="$PROJECT_DIR$/src/com/halloween/mao/Reporter.java" />
         <option value="$PROJECT_DIR$/src/com/halloween/mao/ReportGenerater.java" />
         <option value="$PROJECT_DIR$/src/IReportMaxBytes.java" />
-        <option value="$PROJECT_DIR$/src/com/halloween/mao/MaxBytesClass.java" />
         <option value="$PROJECT_DIR$/src/com/halloween/mao/TotalSumBytesClass.java" />
-        <option value="$PROJECT_DIR$/src/com/halloween/mao/TotalSumAnswers.java" />
-        <option value="$PROJECT_DIR$/src/com/halloween/mao/MaxBytes.java" />
-        <option value="$PROJECT_DIR$/src/com/halloween/mao/LogFileProcessor.java" />
         <option value="$PROJECT_DIR$/src/com/halloween/mao/PreReportGenerater.java" />
-        <option value="$PROJECT_DIR$/src/com/halloween/mao/IReportGenerater.java" />
         <option value="$PROJECT_DIR$/src/com/halloween/mao/IReportMaxBytes.java" />
         <option value="$PROJECT_DIR$/src/com/halloween/mao/IReportSumAnswers.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/ReportParams.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/IReportGenerater.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/MostOftenClasss.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/TotalSumAnswers.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/MaxBytes.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/MaxBytesClass.java" />
         <option value="$PROJECT_DIR$/src/com/halloween/mao/MostOften.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/MostOftenClass.java" />
+        <option value="$PROJECT_DIR$/src/com/halloween/mao/LogFileProcessor.java" />
       </list>
     </option>
   </component>
@@ -252,8 +217,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -280,6 +245,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -319,7 +285,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -640,6 +605,7 @@
       <workItem from="1427098331412" duration="79000" />
       <workItem from="1427521091482" duration="4337000" />
       <workItem from="1427616321606" duration="1302000" />
+      <workItem from="1428125930074" duration="4003000" />
     </task>
     <task id="LOCAL-00001" summary="Classes for parsing accessLogs and writing required string onto another file.">
       <created>1425798015512</created>
@@ -651,30 +617,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74211000" />
+    <option name="totallyTimeSpent" value="78214000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31989247" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31862745" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26344085" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2630719" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26344085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2630719" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27292264" sideWeight="0.49902153" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27231467" sideWeight="0.49902153" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25134408" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24583964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -684,6 +649,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25134408" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -893,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Download/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21597096" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="82961" max-vertical-offset="120683">
@@ -1002,17 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="782">
           <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/ParserForLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="578">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,9 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,7 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <caret line="11" column="120" selection-start-line="11" selection-start-column="120" selection-end-line="11" selection-end-column="120" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,22 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="476">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Host.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="680">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,25 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/TotalSumBytesClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/MaxBytes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="510">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
@@ -1097,76 +1006,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/TotalSumAnswers.java">
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/ParserForLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="578">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/MaxBytesClass.java">
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/TotalSumBytesClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/IReportGenerater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/TotalSumAnswers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="7" column="116" selection-start-line="7" selection-start-column="98" selection-end-line="7" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/ReportParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/MaxBytes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="561">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/PreReportGenerater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="714">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="680">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/IReportMaxBytes.java">
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="442">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/IReportSumAnswers.java">
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/Host.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/LogFileProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/MostOftenClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="1190">
-          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/MostOften.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9480769" vertical-offset="0" max-vertical-offset="629">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="680">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/MaxBytesClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/halloween/mao/LogFileProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5390244" vertical-offset="714" max-vertical-offset="1275">
+          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
